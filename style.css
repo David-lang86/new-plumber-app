@@ -507,3 +507,232 @@ button {
   cursor: pointer; 
 } 
 
+@media screen and (max-width: 600px) {
+  .blue-header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blue-header nav ul li a {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+
+  .logo-container,
+  .logo-container1 {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  .circle,
+  .circle1,
+  .circless {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .dc-text, .dc1-text {
+    font-size: 2rem;
+  }
+
+  .j-text, .j1-text {
+    font-size: 3rem;
+  }
+
+  .name h1 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+  .name h2 {
+    font-size: 1.8rem;
+    margin: 0;
+  }
+
+  .praise {
+    font-size: 1rem;
+    margin: 10px auto;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .button li a,
+  .buttonss li a {
+    width: 90%;
+    font-size: 1rem;
+    margin: 10px auto;
+  }
+
+  .partner-list,
+  .mission-vision-container,
+  .review-box,
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col {
+    flex-basis: 100%;
+    width: 90%;
+  }
+
+  .foam {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  form {
+    width: 100%;
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .blue-header nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .logo-container,
+  .logo-container1 {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .circle,
+  .circle1,
+  .circless {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .dc-text, .dc1-text {
+    font-size: 2.5rem;
+  }
+
+  .j-text, .j1-text {
+    font-size: 4rem;
+  }
+
+  .name h1 {
+    font-size: 1.8rem;
+  }
+
+  .name h2 {
+    font-size: 2.2rem;
+  }
+
+  .praise {
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 1.3rem;
+  }
+
+  .button li a,
+  .buttonss li a {
+    width: 70%;
+    font-size: 1.2rem;
+    margin: 10px auto;
+  }
+
+  .partner-list,
+  .mission-vision-container,
+  .review-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col {
+    flex-basis: 45%;
+    margin-bottom: 20px;
+  }
+
+  .foam {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  form {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .blue-header nav ul {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logo-container,
+  .logo-container1 {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .circle,
+  .circle1,
+  .circless {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .dc-text, .dc1-text {
+    font-size: 4rem;
+  }
+
+  .j-text, .j1-text {
+    font-size: 6rem;
+  }
+
+  .name h1 {
+    font-size: 2.5rem;
+  }
+
+  .name h2 {
+    font-size: 3.5rem;
+  }
+
+  .praise {
+    font-size: 1.5rem;
+    margin-left: 30%;
+  }
+
+  .button li a,
+  .buttonss li a {
+    width: 200px;
+    font-size: 1.5em;
+    margin-left: 42.5%;
+  }
+
+  .partner-list {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .mission-vision-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .review-box {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .col {
+    flex-basis: 23%;
+  }
+
+  .foam {
+    width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  form {
+    max-width: 500px;
+    padding: 0;
+  }
+}
+
+
